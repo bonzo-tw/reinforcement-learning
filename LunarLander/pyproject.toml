@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "lunarlander"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.12.1"
+tqdm = "^4.64.1"
+numpy = "^1.23.4"
+pandas = "^1.5.1"
+flake8 = "^5.0.4"
+scikit-learn = "^1.1.2"
+gym = {extras = ["box2d"], version = "^0.26.2"}
+PyVirtualDisplay = "^3.0"
+ipykernel = "^6.16.0"
+matplotlib = "^3.6.1"
+ipywidgets = "^8.0.2"
+jupyterlab = "^3.4.8"
+torchvision = "^0.14.0"
+tensorboard = "^2.10.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
